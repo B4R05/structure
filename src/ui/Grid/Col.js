@@ -8,7 +8,6 @@ export const Col = ({children, className, width, offset}) => {
   const columnWidth = `${(width / 12) * 100}%`;
   const marginLeft = `${(offset / 12) * 100}%`;
   const {setRef, style} = useTheme({marginLeft, columnWidth});
-  console.log(style);
   return (
     <div
       style={style}

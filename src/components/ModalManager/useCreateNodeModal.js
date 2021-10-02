@@ -8,7 +8,7 @@ const useCreateNodeModal = () => {
       modalType: modalTypes.NODE_CREATE,
       modalProps: {
         parentId,
-      }
+      },
     });
   };
 };
